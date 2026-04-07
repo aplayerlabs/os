@@ -1,6 +1,6 @@
-# The AI Flywheel
+# A Player OS
 
-Build. Run. Learn. Compound.
+The A Player Operating System. Build. Run. Learn. Compound.
 
 ```
             PLAYBOOKS
@@ -30,9 +30,9 @@ Build. Run. Learn. Compound.
 
 ## How it works
 
-Playbooks builds assets. Operatives runs on assets. Debriefs evaluates assets. Assets compound. The flywheel spins. Each rotation leaves more than the last.
+Playbooks builds assets. Operatives runs on assets. Debriefs evaluates assets. Assets compound. Each rotation leaves more than the last.
 
-No stage owns the assets. All stages shape them. The flywheel accelerates because the assets at the center get better every turn — not because any single stage gets faster.
+No stage owns the assets. All stages shape them. A Player OS accelerates because the assets at the center get better every turn — not because any single stage gets faster.
 
 ## The repos
 
@@ -50,7 +50,7 @@ See [GLOSSARY.md](GLOSSARY.md) for the canonical terminology. All product repos 
 | Term | What it is |
 |------|-----------|
 | **A Player Labs** | The company |
-| **The AI Flywheel** | The system. This repo describes it. |
+| **A Player OS** | The system. This repo describes it. |
 | **Playbooks** | Build stage. Product name stands alone — never "A Player Playbooks". |
 | **Operatives** | Run stage. Same rule. |
 | **Debriefs** | Learn stage. Same rule. |

@@ -1,6 +1,6 @@
 # Glossary
 
-Single source of truth for terminology across the AI Flywheel. All product repos defer to this file. If it's not here, don't use it.
+Single source of truth for terminology across A Player OS. All product repos defer to this file. If it's not here, don't use it.
 
 ## The Company
 
@@ -12,7 +12,7 @@ Single source of truth for terminology across the AI Flywheel. All product repos
 
 | Term | What it is |
 |------|-----------|
-| **The AI Flywheel** | The complete system. Four stages, one compounding cycle. |
+| **A Player OS** | The A Player Operating System. The complete system. Four stages, one compounding cycle. |
 
 ## The Stages
 
@@ -25,7 +25,7 @@ Four stages. Each stands alone as a product name. Never prefix with "A Player".
 | **Debriefs** | Learn | Reflective | Structured intelligence extracted from what happened. | `aplayerlabs/debriefs` |
 | **Assets** | Compound | Cumulative | Durable artefacts that compound through reuse. | `aplayerlabs/assets` |
 
-The flywheel: **Build → Run → Learn → Compound → Build better.**
+Build. Run. Learn. Compound.
 
 ## Shared Terms
 
@@ -35,7 +35,7 @@ These terms are used across all four products.
 |------|-----------|-------|
 | **Skill** | A slash command. The unit of interaction. Each skill has a SKILL.md (metadata) and CLAUDE.md (operating contract). | Playbooks, Operatives, Debriefs |
 | **Playfield** | The project folder where skills read from and write to. The bounded environment. | All products |
-| **Artefact** | A discrete, durable thing produced by the flywheel. An asset is an artefact that compounds. | All products |
+| **Artefact** | A discrete, durable thing produced by the system. An asset is an artefact that compounds. | All products |
 
 ## Operatives-specific Terms
 
@@ -77,6 +77,7 @@ These terms MUST NOT appear in any product repo (except in glossaries and lint s
 | A Player Operatives | **Operatives** | Product name stands alone |
 | A Player Loops | **Operatives** | Old product name |
 | A Player Intel | **Debriefs** | Old product name |
+| The AI Flywheel | **A Player OS** | Old system name |
 | aplayerloops | **operatives** | Old repo name |
 | aplayeroperatives | **operatives** | Intermediate mistake |
 | aplayerintel | **debriefs** | Old repo name (rename pending) |
