@@ -1,0 +1,58 @@
+{
+  "system": {
+    "name": "A Player OS",
+    "name_full": "The A Player Operating System",
+    "repo": "aplayerlabs/os",
+    "url": "https://github.com/aplayerlabs/os"
+  },
+  "company": {
+    "name": "A Player Labs",
+    "url": "https://aplayerlabs.com"
+  },
+  "stages": {
+    "build": {
+      "name": "Playbooks",
+      "behaviour": "sequential",
+      "repo": "aplayerlabs/playbooks",
+      "url": "https://github.com/aplayerlabs/playbooks",
+      "quality_gate": "A playbook that hasn't been run is just an opinion."
+    },
+    "run": {
+      "name": "Operatives",
+      "behaviour": "cyclical",
+      "repo": "aplayerlabs/operatives",
+      "url": "https://github.com/aplayerlabs/operatives",
+      "quality_gate": "An operative without a boundary event is just a busy loop."
+    },
+    "learn": {
+      "name": "Debriefs",
+      "behaviour": "reflective",
+      "repo": "aplayerlabs/debriefs",
+      "url": "https://github.com/aplayerlabs/debriefs",
+      "quality_gate": "A debrief that doesn't change a playbook or operative was a waste of cycles."
+    },
+    "compound": {
+      "name": "Assets",
+      "behaviour": "cumulative",
+      "repo": "aplayerlabs/assets",
+      "url": "https://github.com/aplayerlabs/assets",
+      "quality_gate": "An asset nobody's compounding is depreciating."
+    }
+  },
+  "deprecated": [
+    { "term": "A Player Playbooks", "replacement": "Playbooks" },
+    { "term": "A Player Operatives", "replacement": "Operatives" },
+    { "term": "A Player Loops", "replacement": "Operatives" },
+    { "term": "A Player Intel", "replacement": "Debriefs" },
+    { "term": "The AI Flywheel", "replacement": "A Player OS" },
+    { "term": "aplayerloops", "replacement": "operatives" },
+    { "term": "aplayeroperatives", "replacement": "operatives" },
+    { "term": "aplayerintel", "replacement": "debriefs" },
+    { "term": "LOOPS.md", "replacement": "OPERATIVES.md" },
+    { "term": "loop-design", "replacement": "operation-design" }
+  ],
+  "deprecated_words": [
+    { "term": "loop", "replacement": "operation (recurring) or mission (goal-focused)", "whitelist": ["for loop", "while loop", "event loop", "run loop", "busy loop", "feedback loop", "test-fix loop", "loop-back", "loop back", "Loop Back", "closes the loop", "close the loop", "closes every loop", "the loop", "F-I-C loop", "loop repeats", "loop sharpens", "Feedback Loop", "compounding flywheel", "wrap loop", "VERIFY loop", "test loop", "loop tight", "loop to /build", "Loop..../test"] },
+    { "term": "brain", "replacement": "operative (agent) or skill (slash command)", "whitelist": [] }
+  ]
+}
