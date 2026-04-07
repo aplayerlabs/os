@@ -80,7 +80,7 @@ These terms MUST NOT appear in any product repo (except in glossaries and lint s
 | The AI Flywheel | **A Player OS** | Old system name |
 | aplayerloops | **operatives** | Old repo name |
 | aplayeroperatives | **operatives** | Intermediate mistake |
-| aplayerintel | **debriefs** | Old repo name (rename pending) |
+| aplayerintel | **debriefs** | Old repo name |
 | loop (as domain concept) | **operation** or **mission** | Operation if it recurs, mission if it completes |
 | brain (as unit) | **operative** or **skill** | Operative = the agent, skill = the slash command |
 | brains (as folder) | **operatives** | Folder name |

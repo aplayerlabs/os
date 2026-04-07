@@ -40,7 +40,7 @@ No stage owns the assets. All stages shape them. A Player OS accelerates because
 |------|-------|-----------|
 | [aplayerlabs/playbooks](https://github.com/aplayerlabs/playbooks) | Build | Sequential |
 | [aplayerlabs/operatives](https://github.com/aplayerlabs/operatives) | Run | Cyclical |
-| aplayerlabs/debriefs | Learn | Reflective |
+| [aplayerlabs/debriefs](https://github.com/aplayerlabs/debriefs) | Learn | Reflective |
 | [aplayerlabs/assets](https://github.com/aplayerlabs/assets) | Compound | Cumulative |
 
 ## Nomenclature
